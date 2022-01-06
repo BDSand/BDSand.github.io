@@ -38,3 +38,5 @@ let weather = {
     this.fetchWeather(document.querySelector(".search-bar").value);
   }
 };
+
+weather.fetchWeather("Denver");
